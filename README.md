@@ -33,7 +33,7 @@ git checkout clean
 npm install
 
 # bundles relevant javascript files into bundle.js
-webpack
+./node_modules/.bin/webpack -w
 
 # you should see Hello World
 open index.html
